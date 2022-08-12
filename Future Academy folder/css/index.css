@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Dancing+Script&family=Magra&family=Outfit:wght@100;200;300;400&family=PT+Sans:wght@400;700&family=Red+Hat+Text:ital,wght@0,300;0,600;0,700;1,300;1,500;1,600;1,700&display=swap');
+
+.main_body{
+    font-family: 'Montserrat';
+}
+
+header{
+    margin: 0 auto;
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 370px;
+    align-items: center;
+}
+.header__logo{
+    max-width: 100px;
+    width: 100%;
+}
+.header__menu{
+    display: flex;
+    padding: 0px 67px 0px 63px;
+}
+
+.header_menu_list{
+    display: flex;
+}
+.header_menu_list_photo{
+    display: flex;
+}
+.burgerRectangle{
+    width: 20px;
+    height: 16px;
+}
+.locftionIconMini{
+    width: 17px;
+    height: 20px;
+}
+.bottomArrowMini{
+    width: 8px;
+    height: 4px;
+}
+.loginPersone{
+    height: 18px;
+    width: 18px;
+}
+.header__contacts{
+    display: flex;
+
+}
+
+.header_contact_list{
+display: flex;
+}
+
+.header_contact_list_location{
+    display: flex;
+}

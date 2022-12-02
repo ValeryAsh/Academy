@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  background-color: #fff;
+  color: #636060;
+}
+.header_block {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding-top: 46px;
+}
+.all_page {
+  margin: 0 auto;
+  max-width: 1222px;
+  width: 100%;
+}
+.header_logo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 63px;
+  width: 100%;
+  height: 19.55px;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+nav {
+  max-width: 465px;
+  width: 100%;
+}
+.header_menu_list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 458px;
+  width: 100%;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  color: #010201;
+}
+main {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0px 100px;
+}
+.welcome_img1 {
+  display: flex;
+  align-items: flex-start;
+}
+.welcome_img {
+  max-width: 448.8px;
+  width: 100%;
+}
+.welcome_text {
+  max-width: 558.8px;
+  width: 100%;
+}
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+  padding-top: 50px;
+}
+.welcome_text_span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #499a18;
+}
+.welcome_text_main {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+  max-width: 534px;
+  width: 100%;
+  padding-top: 47px;
+}
+.welcome_text_block {
+  padding-left: 214px;
+}
+.welcome_button {
+  padding: 11px 24px 9px;
+  border: 3px solid #e06733;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 45px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.about_text {
+  padding: 156px 0px 166px;
+}
+.about_text_h2 {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+  max-width: 421px;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.about_text_h2_span {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #e06733;
+}
+.about_text_main {
+  max-width: 595px;
+  width: 100%;
+}
+.service {
+  padding: 35px 0px 111px;
+}
+.service_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1005px;
+  width: 100%;
+  padding-bottom: 82px;
+}
+.servise_h2 {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+  max-width: 290px;
+  width: 100%;
+}
+.service_header_button_block {
+  display: flex;
+  justify-content: space-between;
+  max-width: 560px;
+  width: 100%;
+  background-color: #fff;
+}
+.service_header_button {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+  max-width: 161px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(224, 103, 51, 1);
+  border-radius: 5px;
+}
+.about_img {
+  padding-top: 90px;
+}
+.service_card_block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.service_card {
+  text-align: center;
+  border: 1px solid #e3e1d5;
+  border-radius: 25px;
+  margin-bottom: 55px;
+}
+.service_card_h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e06733;
+  padding: 13px 0px;
+}
+.service_card_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+  padding-bottom: 30px;
+}
+.prices {
+  display: flex;
+  justify-content: space-between;
+}
+/* .prices_header {
+  display: flex;
+  justify-content: space-between;
+} */
+.prices_header_h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+.prices_header_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: right;
+  color: #000000;
+  max-width: 452px;
+  width: 100%;
+}
+.prices_header_text_span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: right;
+  color: #499a18;
+}
+.prices_button_block {
+  padding: 34px 41px;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+}
+.prices_button_block_button {
+  background: #edf2ec;
+  border-radius: 20px;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  max-width: 332px;
+  width: 100%;
+}
+.prices_button_block_button_img{
+  border-radius: 50px;
+  background-color: #D9D9D9;
+  border: 1px solid #717171;
+  width: 16px;
+  /* width: 100%; */
+  height: 16px;
+  display: flex;
+  justify-content: center;
+}

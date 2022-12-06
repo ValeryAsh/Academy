@@ -220,10 +220,10 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
-/* .prices_header {
-  display: flex;
-  justify-content: space-between;
-} */
+.prices_header {
+  max-width: 332px;
+  width: 100%;
+}
 .prices_header_h2 {
   font-family: "Inter";
   font-style: normal;
@@ -231,6 +231,7 @@ h1 {
   font-size: 40px;
   line-height: 48px;
   color: #000000;
+  padding-bottom: 60px;
 }
 .prices_header_text {
   font-family: "Inter";
@@ -240,7 +241,6 @@ h1 {
   line-height: 50px;
   text-align: right;
   color: #000000;
-  max-width: 452px;
   width: 100%;
 }
 .prices_header_text_span {
@@ -261,8 +261,6 @@ h1 {
   background: #edf2ec;
   border-radius: 20px;
   padding: 16px 40px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   font-family: "Inter";
   font-style: normal;
@@ -270,16 +268,90 @@ h1 {
   font-size: 20px;
   line-height: 20px;
   color: #000000;
-  max-width: 332px;
   width: 100%;
+}
+.prices_button_block_button_content{
+  display: flex;
+  justify-content: space-between;
 }
 .prices_button_block_button_img{
   border-radius: 50px;
   background-color: #D9D9D9;
-  border: 1px solid #717171;
-  width: 16px;
-  /* width: 100%; */
-  height: 16px;
   display: flex;
   justify-content: center;
+  padding: 6px 8px;
+}
+.prices_button_block_button_c{
+  background: #edf2ec;
+  border-radius: 20px;
+  padding: 16px 40px;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  width: 100%;
+  margin: 32px 0px;
+}
+.prices_button_block_button_img1{
+  max-width: 4px;
+  width: 100%;
+}
+.service_contacts{
+  max-width: 452px;
+  width: 100%;
+  text-align: right;
+}
+.service_contacts_button{
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+  max-width: 162px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(224, 103, 51, 1);
+  border-radius: 5px;
+  margin: 37px 0px 7px;
+}
+.service_contacts_img{
+  max-width: 288px;
+  width: 100%;
+  text-align: right;
+  padding-bottom: 12px;
+}
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+.contacts_img1{
+  max-width: 400px;
+  width: 100%;
+}
+.contacts_h2{
+  max-width: 195px;
+  width: 100%;
+  padding: 15px 64px 0px 113px;
+}
+.contacts_h2_text{
+  font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #499A18;
+}
+.contacts_button_block{
+  max-width: 450px;
+  width: 100%;
+}
+.contacts_city{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
